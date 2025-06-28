@@ -11,20 +11,6 @@ Quick Start
 
 To run the entire processing pipeline automatically, simply execute the `Synchrotron.bat` file located in the root folder of the project. This batch script runs the processing workflow and installs all necessary dependencies.
 
----
-
-PROJECT STRUCTURE
-
-SynchrotronHandler/
-├── data/
-│   ├── xxx.dat
-│   └── tempres.txt
-├── lib/
-│   ├── dataProcess.py
-│   ├── originlib.py
-│   └── main.py
-│   └── README.md
-├── Syncrotron.bat
 
 ---
 
@@ -32,14 +18,6 @@ Contents of the `data` Folder
 
 - `.dat` files: Place here all synchrotron data files you wish to process.
 - `tempres.txt`: A text file containing temperature or pressure data in the same order as the `.dat` files. Each line should contain one temperature or pressure.
-    - Example:
-        1
-        2
-        3
-        4
-        5
-        6
-        7
 
 ---
 
